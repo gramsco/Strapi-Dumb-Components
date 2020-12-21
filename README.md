@@ -1,6 +1,8 @@
 # POC: Simple(r) Components for Strapi
-
 (TLDR available below)
+
+![Strapi on the left, Next on the right](/fullpoc.png?raw=true)
+
 
 [Strapi](https://strapi.io/) is a great, highly customizable headless CMS.
 
@@ -105,6 +107,6 @@ export default function Home({ article }) {
 }
 ```
 
-and VOILÀ !
+and VOILÀ!
 
 Please note that this is not optimized yet as the main goal of the repo was just a POC that you can create custom components on the fly in Markdown with Strapi.
