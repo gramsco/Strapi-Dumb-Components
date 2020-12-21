@@ -16,10 +16,6 @@ export async function getStaticProps() {
   };
 }
 
-function Mdr({ children }) {
-  return <h2 style={{ color: "red" }}>{children}</h2>;
-}
-
 function Coords({ children }) {
   const [title, lat, lng] = children.map((e) => e.props.children[0]);
 
