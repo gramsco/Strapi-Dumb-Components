@@ -16,6 +16,8 @@ The model of the component was pretty simple:
 - A description (string)
 - A historical date (string)
 
+![Two instances of the same Strapi Component](/chronology.png?raw=true)
+
 But if you're prototyping, it can easily be a mess. What if you want to change the type of the inputs really quick? 
 
 You'd have to:
@@ -42,7 +44,7 @@ Whereas, with a little hack, you can just do:
 </date>
 ```
 
-Or as in this repo:
+Or, as in this repo:
 
 ```html
 <coords>
